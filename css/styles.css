@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(18, 18, 18);
+    width: 100%;
+    height: 100%;
+}
+.navbar{
+    height: 56px;
+}
+.nav-brand:hover{
+    color: rgb(97, 97, 97);
+}
+.fs-5:hover{
+    color: rgb(97, 97, 97);
+}
