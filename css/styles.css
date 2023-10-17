@@ -6,9 +6,26 @@ body{
 .navbar{
     height: 56px;
 }
+.container{
+    
+}
+.ew9YjqRpi2x1{
+    height: 5px;
+    width: 5px;
+}
 .nav-brand:hover{
     color: rgb(97, 97, 97);
 }
 .fs-5:hover{
     color: rgb(97, 97, 97);
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-link{
+    width: 50px;
+}
+.btn{
+    height: fit-content;
 }
