@@ -26,13 +26,13 @@
             
                 <a class="col mx-1 d-inline nav-link active fs-5 text-center" href="#">Home</a>
 
-                <a class="col mx-1 d-inline nav-link active fs-5 text-center" href="#">Features</a>
+                <a class="col mx-1 d-inline nav-link active fs-5 text-center" href="#fe">Features</a>
     
-                <a class="col mx-1 d-inline nav-link active fs-5 text-center" href="#">About</a>
+                <a class="col mx-1 d-inline nav-link active fs-5 text-center" href="#footer">About</a>
        
-                <button class="col d-inline mx-1 btn btn-dark btn-sm" type="submit">Signup</button>
+                <button class="col d-inline mx-1 btn btn-dark btn-sm" onclick="goToSignup()" type="submit">Signup</button>
         
-                <button class="col d-inline mx-1 btn btn-outline-dark btn-sm" type="submit">Login</button>
+                <button class="col d-inline mx-1 btn btn-outline-dark btn-sm" onclick="goToLogin()" target="_blank" type="submit">Login</button>
       
         </div>
     </nav>
@@ -60,7 +60,7 @@
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
+              <span id="fe" class="visually-hidden">Next</span>
             </button>
           </div>
     </section>
@@ -95,12 +95,12 @@
             </div>
           </div>
     </section>
-    <footer class="container">
+    <footer id="footer" class="container">
         <div class="container">
             <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
               <div class="col-md-4 d-flex align-items-center">
                 <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-                  <img src="">
+                  <img class="rounded-4" src="/IMG_20230317_084834_298-modified.jpg" width="45px" height="45px">
                 </a>
                 <span class="mb-3 mb-md-0 text-light">© 2023 Sweathkumar, Inc</span>
               </div>
@@ -120,6 +120,7 @@
           </div>
     </footer>
    <script src="js/bootstrap.min.js"></script>
+   <script src="js/script.js"></script>
 </body>
 </html>
 
