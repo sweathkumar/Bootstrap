@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(18, 18, 18);
+    background-image: radial-gradient(circle farthest-corner at 8.2% 11.3%, rgba(31, 31, 31, 1) 0%, rgba(11, 10, 10, 1) 90%);    background-size: cover;
     width: 100%;
     height: 100%;
 }
@@ -17,5 +17,10 @@ body{
     align-items: center;
 }
 #section1{
-    
+    margin-top: 100px;
+    margin-bottom: 50px;
+}.carousel-inner img {
+    height: 300px; /* Adjust the height as needed */
+    width: 400px;  /* Adjust the width as needed */
+    object-fit:cover ;
 }
