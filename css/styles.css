@@ -20,8 +20,11 @@ body{
     color: rgb(97, 97, 97);
 }
 .row{
-    display: flex;
-    justify-content: space-around;
+
+}
+.col{
+    height: 20px;
+    width: 40px;
 }
 .nav-link{
     width: 50px;
