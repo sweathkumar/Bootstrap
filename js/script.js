@@ -8,8 +8,8 @@ function goBack() {
 }
 
 function goToLogin() {
-    window.location.href = ("login.html", "_blank");
-  }
+    var myWindow = window.open("login.html", "",)
+}
   
   function goToSignup() {
     window.location.href = ("signup.html", "_blank");
