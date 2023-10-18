@@ -9,31 +9,75 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
-    <div class="card container text-bg-emphasis px-5 py-5 my-5 d-flex align-items-center">
-        <div class="card">
+    <section class="container mt-5 my-5 d-flex justify-content-center">
+        <div class="row py-5 d-flex align-items-center justify-content-between row-cst imgn1">
+           <div class="col-5 mx-3 my 3 blurbg">
+                <div class="card py-5 pt-5">
+                    <form action="/submit" method="post">
+                    <div class="row px-2 py-2">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    </div>
+                    <div class="row px-2 py-2">
+                        <input type="email" class="form-control cst-a1" id="exampleFormControlInput1" placeholder="name@example.com" required>
+                    </div>
+                    <div class="row px-2 py-2">
+                        <label for="inputPassword5" class="form-label">Password</label>
+                    </div>
+                    <div class="row px-2 py-2">
+                        <input type="password" id="inputPassword5" class="form-control cst-a1" aria-describedby="passwordHelpBlock" required>
+                        <span id="passwordHelpInline" class="form-text">
+                            Must be 8-20 characters long.
+                        </span>
+                    </div>
+                    <div class="row px-2 py-2 btns-size">
+                        <button type="button" class="btn col mx-2 btn-primary">Login</button>
+                        <button type="button" class="btn col mx-2 btn-outline-primary">Sign up</button>
+                    </div>
+                    </form>
+                </div>
+           </div>
+           <div class="col-5 mx-3 my 3 blurbg">
+                <div class="card py-5 pt-5 d-flex align-items-center justify-content-Start">
+                        <h4 class="display-5 ps-4 mar">
+                            Not having an Account?
+                        </h4>
+                        <p class="h4 mar">
+                            Create one by clicking below button!
+                        </p>
+                        <button type="button" class="btn col mx-2 btn-primary button-width-200 mar">Create</button>
+                </div>
+           </div>
+        </div>
+    </section>
+    <script src="js/login_script.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
+<!--
+    <div class="card row text-bg-emphasis px-5 py-5 my-5 d-flex align-items-center">
+        <div class="card px-5 col container">
             <div class="row mt-5">
             <label for="exampleFormControlInput1" class="form-label">Email address</label>
         </div>
         <div class="row">
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            <input type="email" class="form-control cst-a1" id="exampleFormControlInput1" placeholder="name@example.com">
         </div>
         <div class="row mt-2">
             <label for="inputPassword5" class="form-label">Password</label>
         </div>
         <div class="row">
-            <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+            <input type="password" id="inputPassword5" class="form-control cst-a1" aria-describedby="passwordHelpBlock">
+            <span id="passwordHelpInline" class="form-text">
+                Must be 8-20 characters long.
+              </span>          
         </div>
-        <div class="row mt-2">
-            <button type="button" class="btn  mx-2 btn-primary">Login</button>
-
-            <button type="button" class="btn  mx-2 btn-outline-primary">Sign up</button>
+        <div class="row mt-2 mt-5">
+            <button type="button" class="btn col mx-2 btn-primary">Login</button>
+            <button type="button" class="btn col mx-2 btn-outline-primary">Sign up</button>
         </div>
         </div>
-        <div class="card px-3">
+        <div class="card col px-3">
 
         </div>
     </div>
-    <script src="js/login_script.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-</body>
-</html>
+-->

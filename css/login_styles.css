@@ -1,13 +1,37 @@
-.card{
-    max-width: 40rem;
+.row-cst{
+    width: 1200px;
 }
-.row{
-    width: 500px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.form-control{
+    width: 400px !important;
 }
-.container{
+.form-control, .form-label, .form-text, .btn{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.btns-size{
+    margin-top: 30px !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+}
+.mar{
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+.button-width-200{
+    width: 200px !important;
+}
+.imgn1{
+    object-fit: fill;
+    background-image: url("/abstract-realistic-technology-particle-background_23-2148429738.jpg");
+    background-size: cover;
+    background-color: transparent;
+    z-index: 1;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: black;
+}
+.blurbg{
     
 }
